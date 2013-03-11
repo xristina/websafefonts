@@ -1,0 +1,190 @@
+@charset "utf-8";
+/*
+Theme Name: Fonts by chris@paramana.com
+Description: This is the general style of Fonts
+Version: 1.0
+Author: paramana.com
+*/
+html, body {
+	margin: 0pt;
+	padding: 0pt;
+	height: 100%;
+	width: 100%;
+	background-color: #eee;
+}
+body {
+	color: #666666;
+	font-size: 100.01%;
+}
+a {
+	text-decoration: none;
+	color: #990000;
+}
+a:active {
+	outline: none;
+}
+a:focus {
+	-moz-outline-style: none;
+}
+a:hover {
+	color: #910F0F;
+}
+p {
+	margin: 20px 0;
+}
+strong {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1em;
+}
+#holder {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+#holder div {
+    padding: 20px;
+    width: 280px;
+    float: left;
+    position: relative;
+}
+h1, p, b, i {
+    display: block;
+    margin: 0;
+}
+h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+#holder div.intro {
+    background-color: #fefefe;
+    border: 1px solid #aaa;
+    width: 250px;
+    margin-right: 30px;
+}
+.intro p,.intro b {
+    display: inline;
+}
+.intro i {
+    display: block;
+    text-align: right;
+    font-size: 10px;
+    color: #bbb;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+.intro i a {
+    color: #bbb;
+}
+.intro i a:hover {
+    color: #910F0F;
+}
+/*
+============
+Fonts
+============
+*/
+.lucida {
+    font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+}
+.lucida h1 {
+    font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+}
+.bookman {
+    font-family: "Bookman Old Style","Serifa BT","URW Bookman L","itc bookman",times,serif;
+}
+.bookman h1{
+    font-family: "Bookman Old Style","Serifa BT","URW Bookman L","itc bookman",times,serif;
+}
+.arial {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.baskerville {
+    font-family: Baskerville, "Times New Roman", Times, serif;
+}
+.baskerville h1{
+    font-family: Baskerville, Times, "Times New Roman", serif;
+}
+.cambria {
+    font-family: Cambria, Georgia, Times, "Times New Roman", serif;
+}
+.century-gothic {
+    font-family: "Century Gothic", "Apple Gothic", sans-serif;
+}
+.consolas {
+    font-family: Consolas, "Lucida Console", Monaco, monospace;
+}
+.copperplate {
+    font-family: "Copperplate Light", "Copperplate Gothic Light", serif;
+}
+.coorier {
+    font-family: "Courier New", Courier, monospace;
+}
+.franklin {
+    font-family: "Franklin Gothic Medium", "Arial Narrow Bold", Arial, sans-serif;
+}
+.futura {
+    font-family: Futura, "Century Gothic", AppleGothic, sans-serif;
+}
+.garamond {
+    font-family: Garamond, "Hoefler Text", Palatino, "Palatino Linotype", serif;
+}
+.garamond h1{
+    font-family: Garamond, "Hoefler Text", Times New Roman, Times, serif;
+}
+.geneva {
+    font-family: Geneva, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+}
+.geneva h1 {
+    font-family: Geneva, Verdana, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+.georgia {
+    font-family: Georgia, Palatino," Palatino Linotype", Times, "Times New Roman", serif;
+}
+.georgia h1 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+.gill-sans {
+    font-family: "Gill Sans", Calibri, "Trebuchet MS", sans-serif;
+}
+.gill-sans h1 {
+    font-family: "Gill Sans", "Trebuchet MS", Calibri, sans-serif;
+}
+.helvetica {
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.helvetica h1 {
+    font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+}
+.impact {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.palatino {
+    font-family: Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;
+}
+.palatino h1 {
+    font-family: Palatino, "Palatino Linotype", "Hoefler Text", Times, "Times New Roman", serif;
+}
+.tahoma {
+    font-family: Tahoma, Geneva, Verdana;
+}
+.tahoma h1{
+    font-family: Tahoma, Verdana, Geneva;
+}
+.times {
+    font-family: Times, "Times New Roman", Georgia, serif;
+}
+.trebuchet {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande"," Lucida Sans", Arial, sans-serif;
+}
+.trebuchet h1 {
+    font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
+}
+.verdana {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.verdana h1 {
+    font-family: Verdana, Tahoma, Geneva, sans-serif;
+}
